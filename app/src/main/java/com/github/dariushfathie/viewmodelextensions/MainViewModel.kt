@@ -8,8 +8,8 @@ import javax.inject.Inject
 
 @HiltViewModel
 class MainViewModel @Inject constructor(
-    scopeProvider: DispatcherProvider
-) : BaseViewModel(scopeProvider) {
+    dispatcherProvider: DispatcherProvider
+) : BaseViewModel(dispatcherProvider) {
 
 
     var isSaved = false

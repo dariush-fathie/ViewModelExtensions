@@ -3,6 +3,6 @@ package com.github.dariushfathie.viewmodelextensions
 import androidx.lifecycle.ViewModel
 
 
-open class BaseViewModel(scopeProvider: DispatcherProvider) : ViewModel(),
-    DispatcherProvider by scopeProvider
+open class BaseViewModel(dispatcherProvider: DispatcherProvider) : ViewModel(),
+    DispatcherProvider by dispatcherProvider
 
